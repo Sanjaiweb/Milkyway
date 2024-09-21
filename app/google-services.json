@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "964847831309",
+    "project_id": "milkyway-8e3e1",
+    "storage_bucket": "milkyway-8e3e1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:964847831309:android:40f6fd20ab1e53c9d84844",
+        "android_client_info": {
+          "package_name": "com.example.milkyway"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "964847831309-abcig67hdh2qg4u6kpuu4ktfhcm6ds0h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6_GBYIBqovDNhefNzvlQjwH8-7CC7lSI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "964847831309-abcig67hdh2qg4u6kpuu4ktfhcm6ds0h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

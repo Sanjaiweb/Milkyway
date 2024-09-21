@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Milkyway</string>
+    <string name="click_to_register">Click To Register</string>
+    <string name="login">Login\n</string>
+    <string name="id_login">Login</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="register">Register</string>
+    <string name="click_to_login">Click_to_login</string>
+    <string name="logout">Logout</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="view_orders">View Orders</string>
+    <string name="manage_account">Manage Account</string>
+    <string name="payment_history">Payment History</string>
 </resources>
