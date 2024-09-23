@@ -3,7 +3,6 @@ package com.example.milkyway;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ProgressBar;
@@ -36,7 +35,7 @@ public class Login extends AppCompatActivity {
 
         FirebaseUser currentUser = mAuth.getCurrentUser();
         if(currentUser != null){
-            Intent intent = new Intent(getApplicationContext(),AdminDashboardActivity.class);
+            Intent intent = new Intent(getApplicationContext(),MainActivity.class);
             startActivity(intent);
             finish();
         }
@@ -88,10 +87,10 @@ public class Login extends AppCompatActivity {
                                 progressBar.setVisibility(View.GONE);
                                 if (task.isSuccessful()) {
                                     // Sign in success, update UI with the signed-in user's information
-                                    Toast.makeText(getApplicationContext(),"Login Successful",Toast.LENGTH_SHORT).show();
-                                    Intent intent = new Intent(getApplicationContext(), AdminDashboardActivity.class);
-                                    startActivity(intent);
-                                    finish();
+                                   Toast.makeText(getApplicationContext(),"Login Successful",Toast.LENGTH_SHORT).show();
+                                   Intent intent = new Intent(getApplicationContext(),AdminDashboardActivity.class);
+                                   startActivity(intent);
+                                   finish();
                                 } else {
 
                                     Toast.makeText(Login.this, "Authentication failed.",
